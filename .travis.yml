@@ -3,6 +3,7 @@ node_js:
 - '4'
 before_install:
     - "npm install -g npm@^3"
+    - "npm install -g angular-cli"
 deploy:
   provider: heroku
   api_key:
