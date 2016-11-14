@@ -8,13 +8,15 @@ import {HeaderComponent} from './header/header.component';
 import {RouterModule}   from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {AboutComponent} from './about/about.component';
+import {KSSwiperModule} from 'angular2-swiper';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    KSSwiperModule
   ],
   imports: [
     BrowserModule,
