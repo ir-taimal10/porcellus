@@ -15,13 +15,13 @@ import {KSSwiperModule} from 'angular2-swiper';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent,
-    KSSwiperModule
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    KSSwiperModule,
     RouterModule.forRoot([
       {
         path: '',
