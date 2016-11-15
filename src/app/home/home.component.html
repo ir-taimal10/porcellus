@@ -5,10 +5,8 @@
 
   <div class="myslides">
     <ks-swiper-container [options]="example1SwipeOptions">
-      <ks-swiper-slide>
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
+      <ks-swiper-slide *ngFor="let s of [1,2]">
+        <img src="http://api.randomuser.me/portraits/thumb/men/{{s}}.jpg">
       </ks-swiper-slide>
     </ks-swiper-container>
     <button (click)="movePrev()">Prev</button>

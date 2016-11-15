@@ -18,9 +18,8 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     this.example1SwipeOptions = {
-      slidesPerView: 4,
-      loop: false,
-      spaceBetween: 5
+      speed: 400,
+      spaceBetween: 100
     };
   }
 
