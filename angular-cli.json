@@ -18,7 +18,8 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "global-css/bootstrap.css"
+        "global-css/bootstrap.css",
+        "global-css/styles.less"
       ],
       "scripts": [],
       "environments": {
